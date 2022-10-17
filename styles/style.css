@@ -1,0 +1,169 @@
+* {
+  padding:0;
+  margin:0;
+  vertical-align:baseline;
+  list-style:none;
+  border:0
+}
+
+ul {
+  text-decoration: none;
+  padding: 20px;
+}
+
+li {
+  display: inline; 
+  margin: 0 45px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 21px;
+  color: #feece1;
+}
+
+nav {
+  background-color: #242038;
+}
+
+li a:hover {
+  background-color: #9067c6;
+}
+
+img {
+  max-width: 55px;
+  padding-left: 90px;
+}
+
+.principal {
+  padding-top: 45px;
+  text-align: center;
+  font-size: 35px;
+  color: #8d86c9;
+}
+
+#busca {
+  padding: 100px;
+}
+
+#txtBusca {
+  border: 2px solid #242038;
+  background-color: #cac4ce;
+  margin: 25px;
+  padding-left:5px;
+  font-size:23px;
+  height:56px;
+  width:600px;
+  text-align: center;
+}
+
+#btnBusca {
+  background:#242038;
+  border-radius: 52px;
+  text-align: center;
+  padding:20px;
+  font-size:18px;
+  font-weight:bold;
+  text-transform:lowercase; 
+}
+
+#btnBusca:hover {
+  background: #8d86c9; 
+}
+
+.caixa {
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+}
+
+.lembrancas {
+  display: grid;
+  grid-gap: .2rem;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 33.33% 33.33% 33.33%;
+  height: calc(100vh - 50px);
+}
+
+.destaques__titulo  {
+  background: #9067c6;
+  color: #feece1;
+  padding: .4rem;
+  text-align: center;
+  width: 100%;
+  font-size: 1.3rem;
+}
+
+a {
+  width: 100%;
+}
+
+.destaques__principal {
+  background: url("img/banda.jpg") center / cover no-repeat;
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+}
+
+#filmes {
+  background: url("img/filme.jpg") center / cover no-repeat;
+  grid-column: 3 / 4;
+  grid-row: 1 / 3;
+}
+
+#series {
+  background: url("img/serie.jpg") center / cover no-repeat;
+  grid-column: 4 / 4;
+  grid-row: 1 / 3;
+}
+
+.titulo {
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.formFinal {
+  height: 33px;
+  width: 900px;
+  border: 1px solid #242038;
+}
+
+#interacao {
+  padding: auto;
+  margin: 0 auto;
+  width: 900px;
+  padding: 1em;
+  border: 5px double #9067c6;
+  border-radius: 2em;
+}
+
+#interacao div + div {
+  margin-top: 2em;
+}
+
+.button {
+  text-align: center;
+}
+
+button {
+  text-align: center;
+  width: 75px;
+  padding: 15px 20px;
+  border: 1px solid #eee;
+  border-radius: 13px;
+  background-color: #8d86c9;
+  font-size: 18px;
+}
+
+.formulario {
+  padding-bottom: 45px;
+}
+
+.rodape{
+  background-color: #242038;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  font-size: 21px;
+  color: #feece1;
+  padding: 20px;
+}
